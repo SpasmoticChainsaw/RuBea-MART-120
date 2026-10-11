@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Page 3</title>
+    </head>
+    <body>
+        <h2>Page 3</h2>
+        <a href = "Homepage">Homepage</a>
+        <a href = "Page 2">Page 2</a>
+        <h3>Contact</h3>
+        <form action="index" type="post">
+<input type="text" id="name">Name</input>
+<input type="text" id="email">Email</input>
+<input type="checkbox" id="terms"> Accept Terms of Agreement?</input>
+<button id="submit" type="submit">submit</button>
+        </form>
+    </body>
+</html>

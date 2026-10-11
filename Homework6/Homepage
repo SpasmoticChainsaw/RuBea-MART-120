@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Homepage</title>
+    </head>
+    
+    <body>
+<h2>Homepage</h2>
+<a href = "Page 2">Page 2</a>
+<a href = "Page 3">Page 3</a>
+<h4>Hobbies</h4>
+<ul>
+    <li>Art</li>
+    <li>Video Games</li>
+    <li>Rollerskating</li>
+    <li>Going for Walks</li>
+</ul>
+<h4>Favorite Restaurants</h4>
+<ul>
+    <li><a href = "https://www.yelp.com/biz/ripples-ice-cream-parlor-plains">Ripples Ice Cream</a></li>
+    <li><a href = "https://www.yelp.com/biz/winki-s-diner-saint-regis">Winki's Diner</a></li>
+    <li><a href = "https://www.yelp.com/biz/circle-drive-in-plains">The Circle</a></li>
+</ul>
+<h4>Favorite Websites</h4>
+<ol>
+    <li><a href = "https://www.coolmathgames.com/">Cool Math Games</a></li>
+    <li><a href = "https://www.youtube.com/">Youtube</a></li>
+    <li><a href = "https://jspaint.app/">JS Paint</a></li>
+</ol>
+    </body>
+</html>
