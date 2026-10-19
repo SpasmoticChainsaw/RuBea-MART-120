@@ -2,6 +2,19 @@
     <head>
         <title>Page 3</title>
         <link rel="stylesheet" type="text/css" href="Style.css">
+        <script>
+        function Checkit(){
+            if(document.getElementById("name").value ==""){
+                document.getElementById("name").style.backgroundColor="red";
+                document.getElementById("required").innerHTML ="* Required"
+            }
+                if(document.getElementById("email").value ==""){
+                document.getElementById("email").style.backgroundColor="red";
+                document.getElementById("required").innerHTML ="* Required"
+            }
+            
+        }
+        </script>
         <style>
             h2{font-size:100px}
             body{font-size:30px}
@@ -15,8 +28,8 @@
         <form action="index" type="post">
 <input type="text" id="name">Name</input>
 <input type="text" id="email">Email</input>
-<input type="checkbox" id="terms"> Accept Terms of Agreement?</input>
-<button id="submit" type="submit">submit</button>
+<input type="checkbox" id="terms"> Accept Terms of Agreement?</input><span id ="required"></span>
+<button id="submit" type="button" onclick="Checkit()">submit</button>
         </form>
     </body>
 </html>
